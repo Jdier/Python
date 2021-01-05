@@ -31,7 +31,3 @@ def main():
         writer.writerow(['Customer ID', 'Name', 'Age'])
         for x in table_data:
             writer.writerow([x[0], full_name(x[1], x[2]), age(x[3])])
-
-
-if __name__ == '__main__':
-    main()
