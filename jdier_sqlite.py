@@ -3,11 +3,8 @@ from datetime import datetime as dt
 from dateutil.relativedelta import relativedelta
 import csv
 
-student_name = 'Jeffrey Dier'
-
 def full_name(first, last):
     return first + ' ' + last
-
 
 def age(dob):
     dob_format = dt.strptime(dob, '%Y-%m-%d')
